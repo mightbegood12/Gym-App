@@ -171,3 +171,17 @@ ul {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.right > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.hr-line {
+  border-bottom: 3px solid #f0f0f0;
+  width: 40px;
+  align-self: center;
+  opacity: 30%;
+  margin: 0;
+}
